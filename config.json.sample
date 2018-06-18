@@ -1,0 +1,30 @@
+{
+    "devices": [
+        {
+            "name": "RMY85000",
+            "path": "/dev/lynxari/stationData",
+            "values": [
+                "speed",
+                "direction",
+                "gust_speed_stream",
+                "gust_direction_stream"
+            ],
+            "files": [
+                "speed",
+                "direction",
+                "gust_speed",
+                "gust_direction"
+            ]
+        },
+        {
+            "name": "TSL2561",
+            "path": "/dev/lynxari/stationData",
+            "values": [
+                "lux_stream"
+            ],
+            "files": [
+                "lux"
+            ]
+        }
+    ]
+}
